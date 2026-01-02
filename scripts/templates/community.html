@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>head}}
+</head>
+<body>
+{{>header}}
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up">{{HERO_HEADLINE}}<br><span class="highlight">{{HERO_SUBHEADLINE}}</span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{HERO_DESCRIPTION}}</p>
+    </div>
+  </section>
+
+  <!-- Roles Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Find Your Role</h2>
+        <p>Everyone has a part to play in fighting disinformation</p>
+      </div>
+      <div class="services-grid">
+        {{ROLES}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Why Join?</h2>
+        <p>Benefits of being part of the DROG community</p>
+      </div>
+      <div class="grid-4">
+        {{BENEFITS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Member Directory Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Community Directory</h2>
+        <p>Meet the people fighting disinformation</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="member-filters" data-aos="fade-up">
+        <div class="filter-group">
+          <label for="role-filter">Role</label>
+          <select id="role-filter" class="filter-select">
+            {{ROLE_FILTERS}}
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="country-filter">Country</label>
+          <select id="country-filter" class="filter-select">
+            {{COUNTRY_FILTERS}}
+          </select>
+        </div>
+        <div class="filter-group search-group">
+          <label for="member-search">Search</label>
+          <input type="text" id="member-search" class="filter-input" placeholder="Search members...">
+        </div>
+      </div>
+
+      <!-- Member Cards -->
+      <div class="members-grid">
+        {{MEMBER_CARDS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Ready to Join?</h2>
+      <p>Get in touch and become part of the community today.</p>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+    </div>
+  </section>
+
+{{>footer}}
+
+{{>scripts}}
+  <script>
+    // Member filtering
+    const roleFilter = document.getElementById('role-filter');
+    const countryFilter = document.getElementById('country-filter');
+    const searchInput = document.getElementById('member-search');
+    const memberCards = document.querySelectorAll('.member-card');
+
+    function filterMembers() {
+      const role = roleFilter?.value || 'all';
+      const country = countryFilter?.value || 'all';
+      const search = searchInput?.value.toLowerCase() || '';
+
+      memberCards.forEach(card => {
+        const cardRole = card.dataset.role;
+        const cardCountry = card.dataset.country;
+        const cardName = card.dataset.name?.toLowerCase() || '';
+        const cardOrg = card.dataset.org?.toLowerCase() || '';
+
+        const matchesRole = role === 'all' || cardRole === role;
+        const matchesCountry = country === 'all' || cardCountry === country;
+        const matchesSearch = !search || cardName.includes(search) || cardOrg.includes(search);
+
+        if (matchesRole && matchesCountry && matchesSearch) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    roleFilter?.addEventListener('change', filterMembers);
+    countryFilter?.addEventListener('change', filterMembers);
+    searchInput?.addEventListener('input', filterMembers);
+  </script>
+</body>
+</html>

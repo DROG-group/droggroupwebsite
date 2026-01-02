@@ -1,0 +1,59 @@
+# Blog Page Content
+
+page:
+  title: "Blog"
+  description: "Read up on our latest publications and learn about the DROG DIM model"
+
+hero:
+  headline: "Blog"
+  subheadline: "latest publications"
+  description: "Read up on our latest publications. Read all about our DIM model: a method to solve the definitional problem."
+
+categories:
+  - id: "all"
+    name: "All"
+    icon: "fas fa-th-large"
+  - id: "case-studies"
+    name: "Case Studies"
+    icon: "fas fa-microscope"
+  - id: "research"
+    name: "Research"
+    icon: "fas fa-flask"
+  - id: "dim"
+    name: "DIM Model"
+    icon: "fas fa-layer-group"
+
+posts:
+  - title: "Harmony Square"
+    slug: "harmony-square"
+    date: "2024-12-01"
+    author: "DROG Team"
+    category: "case-studies"
+    tags:
+      - "prebunking"
+      - "game"
+      - "inoculation"
+    excerpt: "Harmony Square is a game about fake news. The game's setting is the idyllic Harmony Square, a small neighborhood mildly obsessed with democracy. You, the player, are hired as Chief Disinformation Officer. Over the course of 4 short levels, your job is to disturb the square's peace and quiet by fomenting internal divisions and pitting its residents against each other."
+    subtitle: "What is Harmony Square?"
+
+  - title: "Manifesto 2022: a method to solve the definitional problem"
+    slug: "manifesto-2022-drog-dim"
+    date: "2022-01-15"
+    author: "DROG Team"
+    category: "dim"
+    tags:
+      - "dim"
+      - "theory"
+      - "framework"
+    excerpt: "The DROG Disinformation Intervention Model (DROG DIM) categorizes interventions into five \"generations\" based on paradigm shifts that have occurred in the field of counter-disinformation over the past decade. This model serves as a manifesto, offering a framework for understanding the progress and evolution of efforts to counter disinformation."
+
+  - title: "Explore the next generation of 'INTERACTIVISTS' interventions"
+    slug: "interactivist-interventions"
+    date: "2023-06-20"
+    author: "DROG Team"
+    category: "research"
+    tags:
+      - "gen-5"
+      - "interactivist"
+      - "interventions"
+    excerpt: "Your disinformation interventions must constantly deal with, and adapt to new circumstances, whilst taking on board scientific insights and field lab testing. We are currently exploring how to properly productise new additions to the disinformation intervention cookbook. Read more about these so-called \"Interactivist\" 5th-generation interventions."

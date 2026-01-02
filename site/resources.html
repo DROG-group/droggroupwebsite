@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources - DROG</title>
+  <meta name="description" content="Publications, tools, and research from the DROG community">
+  <meta property="og:title" content="Resources - DROG">
+  <meta property="og:description" content="Publications, tools, and research from the DROG community">
+  <meta property="og:url" content="https://drog.group/resources.html">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <style>
+    .filter-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 40px; }
+    .resources-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+    .resource-card { background: var(--color-white); border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-md); transition: var(--transition); position: relative; overflow: hidden; }
+    .resource-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .resource-card.featured::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--color-primary), var(--color-accent)); }
+    .resource-type { display: inline-block; padding: 4px 12px; background: var(--color-gray-100); border-radius: var(--radius-full); font-size: 12px; font-weight: 600; color: var(--color-primary); margin-bottom: 16px; text-transform: uppercase; }
+    .resource-card h4 { margin-bottom: 12px; text-transform: none; font-family: 'Comfortaa', sans-serif; font-size: 1.25rem; }
+    .resource-card p { color: var(--color-text); line-height: 1.7; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="DROG">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="team.html" class="nav-link">About</a>
+        <a href="dim.html" class="nav-link">DIM</a>
+        <a href="community.html" class="nav-link">Community</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-btn">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up">Resources<br><span class="highlight">& Research</span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Access our publications, tools, games, and research findings.</p>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar" data-aos="fade-up">
+        
+        <button class="filter-btn active" data-filter="all">
+          <i class="fas fa-th-large"></i> All
+        </button>
+
+        <button class="filter-btn" data-filter="tools">
+          <i class="fas fa-gamepad"></i> Tools & Games
+        </button>
+
+        <button class="filter-btn" data-filter="publications">
+          <i class="fas fa-file-pdf"></i> Publications
+        </button>
+
+        <button class="filter-btn" data-filter="research">
+          <i class="fas fa-flask"></i> Research
+        </button>
+      </div>
+      <div class="resources-grid">
+        
+        <div class="resource-card featured" data-category="tools" data-aos="fade-up" data-aos-delay="0">
+          <span class="resource-type">Game</span>
+          <h4>Harmony Square</h4>
+          <p>A game about fake news that inoculates players against manipulation techniques. Play as a Chief Disinformation Officer.</p>
+          <a href="https://harmonysquare.game" class="btn btn-outline btn-sm" target="_blank">Play Now</a>
+        </div>
+
+        <div class="resource-card featured" data-category="tools" data-aos="fade-up" data-aos-delay="50">
+          <span class="resource-type">Game</span>
+          <h4>Bad News</h4>
+          <p>Become a fake news tycoon in this award-winning browser game. Learn the six degrees of manipulation.</p>
+          <a href="https://www.getbadnews.com" class="btn btn-outline btn-sm" target="_blank">Play Now</a>
+        </div>
+
+        <div class="resource-card featured" data-category="publications" data-aos="fade-up" data-aos-delay="100">
+          <span class="resource-type">PDF</span>
+          <h4>DROG Manifesto 2022</h4>
+          <p>The definitive guide to the DROG Disinformation Intervention Model (DIM).</p>
+          <a href="post/manifesto-2022-drog-dim.html" class="btn btn-outline btn-sm" >Download</a>
+        </div>
+
+        <div class="resource-card" data-category="research" data-aos="fade-up" data-aos-delay="150">
+          <span class="resource-type">Paper</span>
+          <h4>Prebunking Research</h4>
+          <p>Academic research on inoculation theory and its application to counter-disinformation.</p>
+          <a href="#" class="btn btn-outline btn-sm" >Learn More</a>
+        </div>
+
+        <div class="resource-card" data-category="tools" data-aos="fade-up" data-aos-delay="200">
+          <span class="resource-type">Game</span>
+          <h4>Go Viral!</h4>
+          <p>A 5-minute game that helps protect against COVID-19 misinformation.</p>
+          <a href="https://www.goviralgame.com" class="btn btn-outline btn-sm" target="_blank">Play Now</a>
+        </div>
+
+        <div class="resource-card" data-category="research" data-aos="fade-up" data-aos-delay="250">
+          <span class="resource-type">Article</span>
+          <h4>Gen 5 Interventions</h4>
+          <p>Exploring the next generation of Interactivist counter-disinformation interventions.</p>
+          <a href="post/interactivist-interventions.html" class="btn btn-outline btn-sm" >Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Have a Resource to Share?</h2>
+      <p>We're always looking for new tools, research, and publications.</p>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Submit a Resource</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html"><img src="images/logo.png" alt="DROG" style="height: 40px;"></a>
+        <p>DROG Group makes independent interventions against disinformation. Join the most successful European-centered community.</p>
+        <div class="footer-social">
+          <a href="https://linkedin.com/company/drog" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/droggroup" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="team.html">About</a>
+        <a href="dim.html">DIM</a>
+        <a href="community.html">Community</a>
+        <a href="resources.html">Resources</a>
+        <a href="events.html">Events</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><strong>Netherlands</strong><br>The Hague<br>Netherlands</p>
+        <p><a href="mailto:info@drog.group">info@drog.group</a></p>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="https://linkedin.com/company/drog" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://twitter.com/droggroup" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-legal">DROG Group. All rights reserved.</p>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true, offset: 100 });
+
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+    if (hamburger && nav) {
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    }
+  </script>
+
+  <script>
+    // Resource filtering
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        document.querySelectorAll('.resource-card').forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

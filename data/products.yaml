@@ -1,0 +1,41 @@
+# Products catalog (replaces Airtable)
+
+categories:
+  - id: "all"
+    name: "All Products"
+  - id: "category-1"
+    name: "Category One"
+  - id: "category-2"
+    name: "Category Two"
+
+products:
+  - id: "product-1"
+    name: "Product One"
+    category: "category-1"
+    description: "Description of product one"
+    image: "images/product-1.jpg"
+    price: ""
+    link: ""
+    tags:
+      - "tag1"
+      - "tag2"
+
+  - id: "product-2"
+    name: "Product Two"
+    category: "category-1"
+    description: "Description of product two"
+    image: "images/product-2.jpg"
+    price: ""
+    link: ""
+    tags:
+      - "tag1"
+
+  - id: "product-3"
+    name: "Product Three"
+    category: "category-2"
+    description: "Description of product three"
+    image: "images/product-3.jpg"
+    price: ""
+    link: ""
+    tags:
+      - "tag2"

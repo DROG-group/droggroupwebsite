@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+*.log
+
+# Old Dorik export files
+DROG*.html
+DROG*_files/
+Drog*.html
+Drog*_files/
+Gen-5-is-here*.html
+Gen-5-is-here_files/
+Disinformation*.html
+Disinformation*_files/
+*.pdf

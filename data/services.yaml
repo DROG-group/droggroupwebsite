@@ -1,0 +1,26 @@
+# Services offered by Drog Group
+
+services:
+  - id: "service-1"
+    title: "Service One"
+    description: "Description of service one"
+    icon: "fas fa-cog"
+    features:
+      - "Feature A"
+      - "Feature B"
+
+  - id: "service-2"
+    title: "Service Two"
+    description: "Description of service two"
+    icon: "fas fa-chart-line"
+    features:
+      - "Feature A"
+      - "Feature B"
+
+  - id: "service-3"
+    title: "Service Three"
+    description: "Description of service three"
+    icon: "fas fa-users"
+    features:
+      - "Feature A"
+      - "Feature B"

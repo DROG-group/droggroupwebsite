@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>head}}
+</head>
+<body>
+{{>header}}
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up">{{HERO_HEADLINE}}<br><span class="highlight">{{HERO_SUBHEADLINE}}</span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{HERO_DESCRIPTION}}</p>
+    </div>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar" data-aos="fade-up">
+        {{BLOG_CATEGORIES}}
+      </div>
+      <div class="blog-grid">
+        {{POSTS}}
+      </div>
+    </div>
+  </section>
+
+{{>footer}}
+
+{{>scripts}}
+  <script>
+    // Blog category filtering
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        document.querySelectorAll('.blog-card').forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

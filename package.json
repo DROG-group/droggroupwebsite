@@ -1,0 +1,11 @@
+{
+  "name": "drog-website",
+  "version": "1.0.0",
+  "description": "DROG - Dealing with Disinformation",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}

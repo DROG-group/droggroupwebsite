@@ -1,0 +1,64 @@
+# Resources Page
+
+page:
+  title: "Resources"
+  description: "Publications, tools, and research from the DROG community"
+
+hero:
+  headline: "Resources"
+  subheadline: "& Research"
+  description: "Access our publications, tools, games, and research findings."
+
+categories:
+  - id: "all"
+    name: "All"
+    icon: "fas fa-th-large"
+  - id: "tools"
+    name: "Tools & Games"
+    icon: "fas fa-gamepad"
+  - id: "publications"
+    name: "Publications"
+    icon: "fas fa-file-pdf"
+  - id: "research"
+    name: "Research"
+    icon: "fas fa-flask"
+
+resources:
+  - title: "Harmony Square"
+    category: "tools"
+    description: "A game about fake news that inoculates players against manipulation techniques. Play as a Chief Disinformation Officer."
+    type: "Game"
+    link: "https://harmonysquare.game"
+    featured: true
+
+  - title: "Bad News"
+    category: "tools"
+    description: "Become a fake news tycoon in this award-winning browser game. Learn the six degrees of manipulation."
+    type: "Game"
+    link: "https://www.getbadnews.com"
+    featured: true
+
+  - title: "DROG Manifesto 2022"
+    category: "publications"
+    description: "The definitive guide to the DROG Disinformation Intervention Model (DIM)."
+    type: "PDF"
+    link: "post/manifesto-2022-drog-dim.html"
+    featured: true
+
+  - title: "Prebunking Research"
+    category: "research"
+    description: "Academic research on inoculation theory and its application to counter-disinformation."
+    type: "Paper"
+    link: "#"
+
+  - title: "Go Viral!"
+    category: "tools"
+    description: "A 5-minute game that helps protect against COVID-19 misinformation."
+    type: "Game"
+    link: "https://www.goviralgame.com"
+
+  - title: "Gen 5 Interventions"
+    category: "research"
+    description: "Exploring the next generation of Interactivist counter-disinformation interventions."
+    type: "Article"
+    link: "post/interactivist-interventions.html"

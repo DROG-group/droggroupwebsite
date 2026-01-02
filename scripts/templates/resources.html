@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>head}}
+  <style>
+    .filter-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 40px; }
+    .resources-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+    .resource-card { background: var(--color-white); border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-md); transition: var(--transition); position: relative; overflow: hidden; }
+    .resource-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .resource-card.featured::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--color-primary), var(--color-accent)); }
+    .resource-type { display: inline-block; padding: 4px 12px; background: var(--color-gray-100); border-radius: var(--radius-full); font-size: 12px; font-weight: 600; color: var(--color-primary); margin-bottom: 16px; text-transform: uppercase; }
+    .resource-card h4 { margin-bottom: 12px; text-transform: none; font-family: 'Comfortaa', sans-serif; font-size: 1.25rem; }
+    .resource-card p { color: var(--color-text); line-height: 1.7; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+{{>header}}
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up">{{HERO_HEADLINE}}<br><span class="highlight">{{HERO_SUBHEADLINE}}</span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{HERO_DESCRIPTION}}</p>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar" data-aos="fade-up">
+        {{CATEGORY_FILTERS}}
+      </div>
+      <div class="resources-grid">
+        {{RESOURCES}}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Have a Resource to Share?</h2>
+      <p>We're always looking for new tools, research, and publications.</p>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Submit a Resource</a>
+    </div>
+  </section>
+
+{{>footer}}
+
+{{>scripts}}
+  <script>
+    // Resource filtering
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        document.querySelectorAll('.resource-card').forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+# Community Members Directory
+
+filters:
+  roles:
+    - id: "all"
+      name: "All Roles"
+    - id: "practitioner"
+      name: "Practitioner"
+    - id: "scientist"
+      name: "Scientist"
+    - id: "donor"
+      name: "Donor"
+    - id: "artist"
+      name: "Artist"
+    - id: "creative-tech"
+      name: "Creative Tech"
+  countries:
+    - id: "all"
+      name: "All Countries"
+    - id: "netherlands"
+      name: "Netherlands"
+    - id: "belgium"
+      name: "Belgium"
+    - id: "germany"
+      name: "Germany"
+    - id: "uk"
+      name: "United Kingdom"
+    - id: "usa"
+      name: "United States"
+
+members:
+  - name: "Dr. Ruurd Oosterwoud"
+    role: "practitioner"
+    organization: "DROG Group"
+    country: "netherlands"
+    bio: "Founder of DROG and pioneer of inoculation-based counter-disinformation interventions in Europe."
+    expertise:
+      - "Prebunking"
+      - "Inoculation Theory"
+      - "Policy"
+    social:
+      linkedin: "https://linkedin.com/in/ruurd"
+      twitter: "https://twitter.com/ruurd"
+
+  - name: "Dr. Sander van der Linden"
+    role: "scientist"
+    organization: "Cambridge University"
+    country: "uk"
+    bio: "Social psychologist specializing in misinformation, conspiracy theories, and inoculation research."
+    expertise:
+      - "Psychology"
+      - "Inoculation Theory"
+      - "Research"
+    social:
+      linkedin: "https://linkedin.com/in/sandervdlinden"
+
+  - name: "Jon Roozenbeek"
+    role: "scientist"
+    organization: "Cambridge University"
+    country: "uk"
+    bio: "Co-developer of Bad News and Harmony Square games, researching psychological inoculation against misinformation."
+    expertise:
+      - "Game Design"
+      - "Prebunking"
+      - "Research"
+    social:
+      twitter: "https://twitter.com/jroozenbeek"
+
+  - name: "Maria van Hoorn"
+    role: "artist"
+    organization: "Studio Interactivist"
+    country: "netherlands"
+    bio: "Visual artist and game designer creating interactive experiences to combat disinformation."
+    expertise:
+      - "Game Design"
+      - "Visual Arts"
+      - "UX"
+
+  - name: "Thomas Dekker"
+    role: "creative-tech"
+    organization: "Freelance"
+    country: "belgium"
+    bio: "Full-stack developer building tools and platforms for counter-disinformation initiatives."
+    expertise:
+      - "Web Development"
+      - "Data Visualization"
+      - "API Design"
+    social:
+      github: "https://github.com/thomasdekker"
+
+  - name: "Anna Schmidt"
+    role: "donor"
+    organization: "European Democracy Fund"
+    country: "germany"
+    bio: "Program officer focused on funding media literacy and counter-disinformation projects."
+    expertise:
+      - "Grantmaking"
+      - "Impact Assessment"
+      - "Strategy"
+    social:
+      linkedin: "https://linkedin.com/in/annaschmidt"
+
+  - name: "Dr. Emily Chen"
+    role: "scientist"
+    organization: "Stanford Internet Observatory"
+    country: "usa"
+    bio: "Researcher studying online manipulation, platform policy, and information operations."
+    expertise:
+      - "Platform Research"
+      - "Data Analysis"
+      - "Policy"
+    social:
+      twitter: "https://twitter.com/emilychen"
+
+  - name: "Lucas Vermeer"
+    role: "practitioner"
+    organization: "Dutch Media Literacy Network"
+    country: "netherlands"
+    bio: "Educator and trainer delivering prebunking workshops to schools and organizations."
+    expertise:
+      - "Education"
+      - "Training"
+      - "Media Literacy"

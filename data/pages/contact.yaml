@@ -1,0 +1,36 @@
+# Contact Page Content
+
+page:
+  title: "Contact"
+  description: "Get in touch with DROG Group"
+
+hero:
+  headline: "Get in Touch"
+  subheadline: "let's talk"
+  description: "Ready to join the fight against disinformation? Have questions about our work? We'd love to hear from you."
+
+contact_info:
+  email: "info@drog.group"
+  phone: "+31848321187"
+  formspree_id: "xpwzgkdl"  # Replace with your Formspree form ID
+
+locations:
+  - name: "Netherlands"
+    address: "The Hague\nNetherlands"
+
+reasons:
+  - title: "Join the Community"
+    description: "Become part of Europe's most successful counter-disinformation network."
+    icon: "fas fa-users"
+
+  - title: "Partner With Us"
+    description: "Explore collaboration opportunities on research and interventions."
+    icon: "fas fa-handshake"
+
+  - title: "Fund a Project"
+    description: "Support impactful counter-disinformation initiatives."
+    icon: "fas fa-donate"
+
+  - title: "Media Inquiries"
+    description: "Press and media requests for interviews and commentary."
+    icon: "fas fa-newspaper"

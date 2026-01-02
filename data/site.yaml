@@ -1,0 +1,96 @@
+# DROG Group Website Configuration
+# Main site data - edit this file to update content
+
+site:
+  name: "DROG"
+  tagline: "Dealing with Disinformation"
+  description: "Join the most successful European-centered community to make independent interventions against disinformation."
+  url: "https://drog.group"
+  email: "info@drog.group"
+  phone: "+31848321187"
+
+# Navigation
+nav:
+  - text: "Home"
+    url: "index.html"
+  - text: "About"
+    url: "team.html"
+  - text: "DIM"
+    url: "dim.html"
+  - text: "Community"
+    url: "community.html"
+  - text: "Resources"
+    url: "resources.html"
+  - text: "Events"
+    url: "events.html"
+  - text: "Blog"
+    url: "blog.html"
+
+# Hero Section
+hero:
+  headline: "Join the most successful squad"
+  subheadline: "ever to deal with disinformation"
+  description: "DROG Group makes independent interventions against disinformation. We unite Practitioners, Scientists, Donors, Artists, and Creative Techs to counter information manipulation."
+  cta_primary:
+    text: "Join the Community"
+    url: "community.html"
+  cta_secondary:
+    text: "Learn More"
+    url: "#about"
+  typed_words:
+    - "Practitioners"
+    - "Scientists"
+    - "Donors"
+    - "Artists"
+    - "Creative Techs"
+
+# Stats Section
+stats:
+  - value: "30m+"
+    label: "Citizens Reached"
+  - value: "100+"
+    label: "Ideas Generated"
+  - value: "10+"
+    label: "Techs Transferred"
+  - value: "20+"
+    label: "Projects Funded"
+  - value: "50+"
+    label: "Gigs Awarded"
+  - value: "4+"
+    label: "Spin-Outs Raised"
+
+# CTA Buttons
+cta_buttons:
+  - text: "I am a Practitioner, I want to help"
+    url: "contact.html"
+  - text: "I am a Scientist, I have a tech transfer"
+    url: "contact.html"
+  - text: "I am a Donor, can I invest in an initiative?"
+    url: "contact.html"
+  - text: "I am a Creative Tech, can I join, please?"
+    url: "contact.html"
+
+# About Section
+about:
+  title: "Solving the Definitional Problem"
+  description: "The DROG Disinformation Intervention Model (DROG DIM) categorizes interventions into five generations based on paradigm shifts that have occurred in the field of counter-disinformation over the past decade."
+  points:
+    - title: "DROG DIM Model"
+      description: "A framework for understanding the progress and evolution of efforts to counter disinformation."
+    - title: "5th Generation Interventions"
+      description: "Interactivist interventions that constantly adapt to new circumstances while incorporating scientific insights and field lab testing."
+    - title: "European-Centered"
+      description: "Building the most successful community to make independent interventions against disinformation."
+
+# Footer
+footer:
+  description: "DROG Group makes independent interventions against disinformation. Join the most successful European-centered community."
+  social:
+    - platform: "linkedin"
+      url: "https://linkedin.com/company/drog"
+    - platform: "twitter"
+      url: "https://twitter.com/droggroup"
+  locations:
+    - name: "Netherlands"
+      address: "The Hague\nNetherlands"
+  legal: "DROG Group. All rights reserved."

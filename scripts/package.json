@@ -1,0 +1,11 @@
+{
+  "name": "drog-group-build",
+  "version": "1.0.0",
+  "description": "Build scripts for drog.group website",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "yaml": "^2.8.2"
+  }
+}

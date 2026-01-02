@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>head}}
+  <style>
+    .mission-card { background: var(--color-white); border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-md); text-align: center; transition: var(--transition); }
+    .mission-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .mission-icon { width: 70px; height: 70px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 28px; color: var(--color-white); }
+    .mission-card h4 { margin-bottom: 12px; font-family: 'Comfortaa', sans-serif; text-transform: none; }
+    .mission-card p { color: var(--color-text); line-height: 1.7; }
+    .story-content { max-width: 800px; margin: 0 auto; }
+    .story-content p { font-size: 1.1rem; line-height: 1.9; color: var(--color-text); margin-bottom: 24px; }
+    .partner-item { background: var(--color-white); border-radius: var(--radius-md); padding: 24px; box-shadow: var(--shadow-sm); }
+    .partner-item h5 { margin-bottom: 8px; font-family: 'Comfortaa', sans-serif; }
+    .partner-item p { font-size: 14px; color: var(--color-text-light); }
+  </style>
+</head>
+<body>
+{{>header}}
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up">{{HERO_HEADLINE}}<br><span class="highlight">{{HERO_SUBHEADLINE}}</span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{HERO_DESCRIPTION}}</p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>{{MISSION_TITLE}}</h2>
+        <p>{{MISSION_DESCRIPTION}}</p>
+      </div>
+      <div class="grid-3">
+        {{MISSION_POINTS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>{{STORY_TITLE}}</h2>
+      </div>
+      <div class="story-content" data-aos="fade-up">
+        {{STORY_CONTENT}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Team</h2>
+        <p>The people behind DROG</p>
+      </div>
+      <div class="team-grid">
+        {{TEAM_CARDS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Partners</h2>
+        <p>Organizations we work with</p>
+      </div>
+      <div class="grid-3">
+        {{PARTNERS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Want to Work With Us?</h2>
+      <p>Join our mission to counter disinformation.</p>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Get in Touch</a>
+    </div>
+  </section>
+
+{{>footer}}
+
+{{>scripts}}
+</body>
+</html>

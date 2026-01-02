@@ -1,0 +1,66 @@
+# Team/About Page
+
+page:
+  title: "About Us"
+  description: "Meet the DROG team and learn about our mission to counter disinformation"
+
+hero:
+  headline: "About"
+  subheadline: "DROG"
+  description: "Building the most successful European-centered community to make independent interventions against disinformation."
+
+mission:
+  title: "Our Mission"
+  description: "DROG Group unites practitioners, scientists, donors, artists, and creative techs in the fight against disinformation."
+  points:
+    - title: "European-Centered"
+      description: "Building bridges across European counter-disinformation communities"
+      icon: "fas fa-globe-europe"
+    - title: "Science-Based"
+      description: "Grounding interventions in rigorous academic research"
+      icon: "fas fa-flask"
+    - title: "Community-Driven"
+      description: "Uniting diverse expertise for collective impact"
+      icon: "fas fa-users"
+
+story:
+  title: "Our Story"
+  content: |
+    DROG was founded with a simple but ambitious goal: to build the most effective community for countering disinformation in Europe and beyond.
+
+    We recognized that fighting disinformation requires more than just fact-checking or media literacy. It demands a multi-generational approach that adapts to evolving threats and leverages diverse expertise.
+
+    Through our DIM (Disinformation Intervention Model), we've mapped out five generations of counter-disinformation interventions, each responding to different challenges and paradigms. We're now pioneering Generation 5 "Interactivist" interventions that harness the power of group communication and social interaction.
+
+team:
+  - name: "Ruurd Oosterwoud"
+    role: "Founder & CEO"
+    bio: "Pioneer in counter-disinformation interventions and creator of the DROG DIM model."
+    image: "images/team/placeholder.png"
+    social:
+      linkedin: "https://linkedin.com/in/ruurdoosterwoud"
+      twitter: "https://twitter.com/ruurdoost"
+
+  - name: "DROG Research Team"
+    role: "Research & Development"
+    bio: "Our interdisciplinary research team develops and tests new intervention strategies."
+    image: "images/team/placeholder.png"
+    social:
+      linkedin: ""
+      twitter: ""
+
+  - name: "Community Partners"
+    role: "Network"
+    bio: "A growing network of practitioners, scientists, and creatives across Europe."
+    image: "images/team/placeholder.png"
+    social:
+      linkedin: ""
+      twitter: ""
+
+partners:
+  - name: "Cambridge University"
+    description: "Academic research partner"
+  - name: "European Commission"
+    description: "Policy collaboration"
+  - name: "NATO StratCom"
+    description: "Strategic communications"

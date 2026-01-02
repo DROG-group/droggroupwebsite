@@ -1,0 +1,17 @@
+# Team members
+
+team:
+  - name: "Team Member One"
+    role: "CEO / Founder"
+    bio: "Short bio here"
+    image: "images/team-1.jpg"
+    social:
+      linkedin: ""
+      twitter: ""
+
+  - name: "Team Member Two"
+    role: "CTO"
+    bio: "Short bio here"
+    image: "images/team-2.jpg"
+    social:
+      linkedin: ""

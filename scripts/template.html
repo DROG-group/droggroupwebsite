@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>head}}
+</head>
+<body>
+{{>header}}
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up">{{HERO_HEADLINE}}<br><span class="highlight">for <span id="typed-target"></span></span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{HERO_DESCRIPTION}}</p>
+
+      <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+        <a href="{{CTA_PRIMARY_URL}}" class="btn btn-primary btn-lg">{{CTA_PRIMARY_TEXT}}</a>
+        <a href="{{CTA_SECONDARY_URL}}" class="btn btn-outline btn-lg">{{CTA_SECONDARY_TEXT}}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid" data-aos="fade-up">
+        {{STATS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>{{ABOUT_TITLE}}</h2>
+        <p>{{ABOUT_DESCRIPTION}}</p>
+      </div>
+      <div class="grid-3">
+        {{ABOUT_POINTS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="contact">
+    <div class="container" data-aos="fade-up">
+      <h2>Ready to Join?</h2>
+      <p>Contact us today to become part of the most successful community dealing with disinformation.</p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
+        <a href="mailto:{{SITE_EMAIL}}" class="btn btn-secondary btn-lg">
+          <i class="fas fa-envelope"></i> {{SITE_EMAIL}}
+        </a>
+        <a href="tel:{{SITE_PHONE}}" class="btn btn-outline btn-lg">
+          <i class="fas fa-phone"></i> {{SITE_PHONE}}
+        </a>
+      </div>
+    </div>
+  </section>
+
+{{>footer}}
+
+{{>scripts}}
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    // Typed.js for hero
+    const typedTarget = document.getElementById('typed-target');
+    if (typedTarget) {
+      new Typed('#typed-target', {
+        strings: {{TYPED_WORDS}},
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 2000,
+        loop: true,
+        showCursor: true,
+        cursorChar: '|'
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Privacy Policy Page
+
+page:
+  title: "Privacy Policy"
+  description: "DROG Group privacy policy and data protection information"
+
+hero:
+  headline: "Privacy"
+  subheadline: "Policy"
+  description: "How we handle your data and protect your privacy."
+
+sections:
+  - title: "Information We Collect"
+    content: "We collect information you provide directly to us, such as when you contact us through our website, subscribe to our newsletter, or participate in our community. This may include your name, email address, and any other information you choose to provide."
+
+  - title: "How We Use Your Information"
+    content: "We use the information we collect to respond to your inquiries, send you updates about our work and community, improve our services, and comply with legal obligations."
+
+  - title: "Information Sharing"
+    content: "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as required by law or to protect our rights."
+
+  - title: "Data Security"
+    content: "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+
+  - title: "Your Rights"
+    content: "You have the right to access, correct, or delete your personal information. You may also opt out of receiving communications from us at any time by contacting us at info@drog.group."
+
+  - title: "Cookies"
+    content: "Our website may use cookies to enhance your browsing experience. You can configure your browser to refuse cookies, though this may limit some functionality."
+
+  - title: "Contact Us"
+    content: "If you have any questions about this Privacy Policy, please contact us at info@drog.group."
+
+  - title: "Changes to This Policy"
+    content: "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page."

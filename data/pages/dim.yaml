@@ -1,0 +1,61 @@
+# DIM (Disinformation Intervention Model) Page
+
+page:
+  title: "Disinformation Intervention Model"
+  description: "The DROG DIM categorizes interventions into five generations based on paradigm shifts in counter-disinformation"
+
+hero:
+  headline: "Disinformation Intervention Model"
+  subheadline: "DIM"
+  description: "Disinformation adapts. Consequences evolve. Paradigms shift. Next-generation interventions emerge."
+
+intro:
+  title: "The problem with interventions"
+  points:
+    - title: "Gullible individuals do exist; they are exceptions not examples"
+      description: ""
+    - title: "There are no identical patterns"
+      description: "No Disinformation Campaign is created equal. Campaigns differ over time, spatially, and tactically. Actors, target groups, and methods change. So, the dynamic context is crucially important."
+    - title: "There are no silver bullets"
+      description: ""
+
+generations:
+  - gen: 1
+    year: 2014
+    solution: "Information campaigns"
+    problem: "Foreign interference"
+    deficit_model: "Education"
+    description: "Citizens need access to proper information and new skills to distinguish false narratives from true narratives."
+    color: "#9147FF"
+
+  - gen: 2
+    year: 2014
+    solution: "Fact-checking"
+    problem: "Truth decay"
+    deficit_model: "Verified information"
+    description: "Once everyone has access to the relevant facts constructive debates become possible because polarization disappears."
+    color: "#3E00EE"
+
+  - gen: 3
+    year: 2016
+    solution: "Prebunking"
+    problem: "Manipulation of domestic vulnerabilities"
+    deficit_model: "Rationality"
+    description: "By letting potential receivers experience how disinformation is created and spread, they are getting inoculated."
+    color: "#FF735C"
+
+  - gen: 4
+    year: 2018
+    solution: "(Self-)Censorship"
+    problem: "Foreign and domestic demagogues amplified by domestic spreaders"
+    deficit_model: "Gatekeeping"
+    description: "By restricting and sanctioning the transmission of disinformation its reach and effect is diminished."
+    color: "#38B2AC"
+
+  - gen: 5
+    year: 2022
+    solution: "Group communication"
+    problem: "Societal alienation"
+    deficit_model: "Social interactions"
+    description: "People change their minds mainly by interacting with other people. Under the right conditions, others can help us find errors in our beliefs, as we can help others find errors in theirs."
+    color: "#A5EFCA"

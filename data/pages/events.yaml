@@ -1,0 +1,59 @@
+# Events Page
+
+page:
+  title: "Events"
+  description: "Upcoming events, workshops, and conferences from the DROG community"
+
+hero:
+  headline: "Events"
+  subheadline: "& Workshops"
+  description: "Join our upcoming events and connect with the counter-disinformation community."
+
+events:
+  - title: "Gen 5 Interactivist Workshop"
+    date: "2026-02-15"
+    time: "14:00 CET"
+    location: "Online"
+    type: "Workshop"
+    description: "Hands-on workshop exploring the latest 5th generation interventions. Learn how to design and implement Interactivist approaches."
+    link: "#"
+    featured: true
+
+  - title: "DROG Community Meetup"
+    date: "2026-03-01"
+    time: "18:00 CET"
+    location: "The Hague, Netherlands"
+    type: "Meetup"
+    description: "Monthly community gathering for practitioners, scientists, and creatives working on counter-disinformation."
+    link: "#"
+
+  - title: "Prebunking Masterclass"
+    date: "2026-03-20"
+    time: "10:00 CET"
+    location: "Online"
+    type: "Training"
+    description: "Deep dive into prebunking techniques and inoculation theory. Suitable for educators and communicators."
+    link: "#"
+    featured: true
+
+  - title: "European Counter-Disinfo Summit"
+    date: "2026-04-10"
+    time: "09:00 CET"
+    location: "Brussels, Belgium"
+    type: "Conference"
+    description: "Annual gathering of European counter-disinformation practitioners and researchers."
+    link: "#"
+    featured: true
+
+past_events:
+  - title: "DROG Annual Conference 2025"
+    date: "2025-11-15"
+    location: "Amsterdam, Netherlands"
+    type: "Conference"
+    description: "Review of the past year's achievements and planning for the future."
+
+  - title: "Harmony Square Launch Event"
+    date: "2024-10-01"
+    location: "Online"
+    type: "Launch"
+    description: "Official launch of the Harmony Square game."

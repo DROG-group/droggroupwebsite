@@ -1,0 +1,62 @@
+# Gender Equality Plan (GEP) Page
+
+page:
+  title: "Gender Equality Plan"
+  description: "DROG's policies and actions regarding workplace equality"
+
+hero:
+  headline: "Gender Equality"
+  subheadline: "Plan (GEP)"
+  description: "Policies and Actions regarding workplace equality. Last revision 15th of December 2022."
+
+sections:
+  - number: "01"
+    title: "Our Approach"
+    items:
+      - "DROG hired and promoted more women than men because DROG's a global, remote first, digital nomad, social business, open hiring teal company. And women tend to do much better in such environments."
+      - "We're for gender equality, but not for outdated, polarizing gender stereotypes."
+      - "We don't need to endorse salary systems that might favour dated role models or perpetuating old stereotypes. In the end you realise it's often the \"top down endorsing\" part is what keeps those very systems alive."
+
+  - number: "02"
+    title: "Work-Life Balance"
+    items:
+      - "We maintain a 100% home-office, remote-first company which means we have no office culture to maintain. DROG supports your home office, monitors your posture, and pays for sport."
+      - "We don't work when people are not healthy, or not well rested. We respect weekends."
+
+  - number: "03"
+    title: "Organization Culture"
+    items:
+      - "The company has established a dedicated intervision system that specifically addresses any form of harassment, especially those related to intersex and gender issues. Additionally, every contract includes a mediation clause to resolve conflicts."
+      - "We set a minimum financial target for female-led projects within DROG's project portfolio."
+      - "The company values diversity and inclusivity in its hiring practices by employing mostly women and men, including those from left-behind or war-torn regions and refugees. They also hire outside of the usual age brackets."
+      - "Women are well-represented in hiring and project management roles at DROG Group, and the company has a transparent and open pay system, where women tend to earn more."
+
+  - number: "04"
+    title: "Eliminating Gender Bias"
+    subtitle: "in Recruitment, Hiring, and Promotion Processes"
+    items:
+      - "We periodically review our recruitment, hiring, and promotion processes to identify any gender biases and take steps to eliminate them."
+      - "We will have others check our diversity and inclusion policy emphasises gender equality in our hiring practices."
+      - "We will establish a gender-balanced interview panel for all recruitment and promotion interviews."
+
+  - number: "05"
+    title: "Gender Balance in Leadership"
+    items:
+      - "We already have an at least 50% representation of women on the advisory board, management team, and advisory networks."
+
+  - number: "06"
+    title: "Training & Reporting"
+    items:
+      - "We require completed training on diversity issues for all contractors."
+      - "We have intervision reporting mechanisms for employees to report any instances of harassment or discrimination and take immediate action to address them."
+
+  - number: "07"
+    title: "Career Development"
+    items:
+      - "We regularly review our performance evaluation criteria to ensure they are gender-neutral."
+      - "We provide at least equal opportunities for career development and training for all genders."
+
+  - number: "08"
+    title: "Work-Life Support"
+    items:
+      - "We encourage Work-Life Balance and support for contractors with caregiving responsibilities."

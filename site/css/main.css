@@ -350,6 +350,19 @@ img {
   transform: translateY(-3px);
 }
 
+/* Outline button on light backgrounds */
+.btn-outline-dark {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-outline-dark:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-3px);
+}
+
 .btn-accent {
   background: var(--color-accent);
   color: var(--color-white);

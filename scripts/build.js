@@ -123,7 +123,7 @@ function generateRoles(roles) {
           </div>
           <h3>${role.title}</h3>
           <p>${role.description}</p>
-          <a href="contact.html" class="btn btn-outline btn-sm">${role.cta}</a>
+          <a href="contact.html" class="btn btn-outline-dark btn-sm">${role.cta}</a>
         </div>`
   ).join('\n');
 }
@@ -147,7 +147,7 @@ function generatePosts(posts) {
           ${post.subtitle ? `<h5 style="color: var(--color-primary); margin-bottom: 16px; text-transform: none;">${post.subtitle}</h5>` : ''}
           <p>${post.excerpt}</p>
           ${post.tags ? `<div class="blog-tags">${post.tags.map(t => `<span class="blog-tag">${t}</span>`).join('')}</div>` : ''}
-          <a href="post/${post.slug}.html" class="btn btn-outline btn-sm">Read More</a>
+          <a href="post/${post.slug}.html" class="btn btn-outline-dark btn-sm">Read More</a>
         </div>`
   ).join('\n');
 }
@@ -325,7 +325,7 @@ function generateResources(resources) {
           <span class="resource-type">${res.type}</span>
           <h4>${res.title}</h4>
           <p>${res.description}</p>
-          <a href="${res.link}" class="btn btn-outline btn-sm" ${res.link.startsWith('http') ? 'target="_blank"' : ''}>${res.type === 'Game' ? 'Play Now' : res.type === 'PDF' ? 'Download' : 'Learn More'}</a>
+          <a href="${res.link}" class="btn btn-outline-dark btn-sm" ${res.link.startsWith('http') ? 'target="_blank"' : ''}>${res.type === 'Game' ? 'Play Now' : res.type === 'PDF' ? 'Download' : 'Learn More'}</a>
         </div>`
   ).join('\n');
 }

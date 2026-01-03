@@ -295,12 +295,19 @@ function generateTeamCards(team) {
 
 // Generate partners HTML
 function generatePartners(partners) {
-  return partners.map((partner, i) => `
-        <div class="partner-item" data-aos="fade-up" data-aos-delay="${i * 50}">
+  return partners.map((partner, i) => {
+    const content = `
           <h5>${partner.name}</h5>
-          <p>${partner.description}</p>
-        </div>`
-  ).join('\n');
+          <p>${partner.description}</p>`;
+    if (partner.link) {
+      return `
+        <a href="${partner.link}" class="partner-item partner-link" data-aos="fade-up" data-aos-delay="${i * 50}" target="_blank">${content}
+        </a>`;
+    }
+    return `
+        <div class="partner-item" data-aos="fade-up" data-aos-delay="${i * 50}">${content}
+        </div>`;
+  }).join('\n');
 }
 
 // Generate spin-offs HTML

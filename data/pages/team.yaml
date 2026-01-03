@@ -78,6 +78,9 @@ spinoffs:
       icon: "fas fa-chess"
 
 partners:
+  - name: "SAUFEX"
+    description: "EU consortium for counter-disinformation"
+    link: "https://saufex.eu"
   - name: "Cambridge University"
     description: "Academic research partner"
   - name: "European Commission"

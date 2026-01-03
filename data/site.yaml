@@ -77,10 +77,13 @@ about:
   points:
     - title: "DROG DIM Model"
       description: "A framework for understanding the progress and evolution of efforts to counter disinformation."
+      link: "dim.html"
     - title: "5th Generation Interventions"
       description: "Interactivist interventions that constantly adapt to new circumstances while incorporating scientific insights and field lab testing."
+      link: "post/interactivist-interventions.html"
     - title: "European-Centered"
       description: "Building the most successful community to make independent interventions against disinformation."
+      link: "community.html"
 
 # Footer
 footer:

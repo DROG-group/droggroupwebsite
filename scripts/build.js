@@ -65,10 +65,10 @@ function generateStats(stats) {
 // Generate about points
 function generateAboutPoints(points) {
   return points.map((point, i) => `
-        <div class="card" data-aos="fade-up" data-aos-delay="${i * 100}">
+        <a href="${point.link || '#'}" class="card card-link" data-aos="fade-up" data-aos-delay="${i * 100}">
           <h4>${point.title}</h4>
           <p>${point.description}</p>
-        </div>`
+        </a>`
   ).join('\n');
 }
 

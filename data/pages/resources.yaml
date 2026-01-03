@@ -42,7 +42,7 @@ resources:
     category: "publications"
     description: "The definitive guide to the DROG Disinformation Intervention Model (DIM)."
     type: "PDF"
-    link: "post/manifesto-2022-drog-dim.html"
+    link: "pdf/manifesto-2022.pdf"
     featured: true
 
   - title: "Prebunking Research"

@@ -325,7 +325,7 @@ function generateResources(resources) {
           <span class="resource-type">${res.type}</span>
           <h4>${res.title}</h4>
           <p>${res.description}</p>
-          <a href="${res.link}" class="btn btn-outline-dark btn-sm" ${res.link.startsWith('http') ? 'target="_blank"' : ''}>${res.type === 'Game' ? 'Play Now' : res.type === 'PDF' ? 'Download' : 'Learn More'}</a>
+          <a href="${res.link}" class="btn btn-outline-dark btn-sm" ${res.link.startsWith('http') || res.link.endsWith('.pdf') ? 'target="_blank"' : ''}>${res.type === 'Game' ? 'Play Now' : res.type === 'PDF' ? 'Download' : 'Learn More'}</a>
         </div>`
   ).join('\n');
 }

@@ -3,19 +3,19 @@
 <head>
 {{>head}}
   <style>
-    .gep-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 30px; }
-    .gep-card { background: var(--color-white); border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-md); transition: var(--transition); position: relative; }
-    .gep-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
-    .gep-number { position: absolute; top: 20px; right: 20px; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: var(--color-gray-100); line-height: 1; }
-    .gep-card h4 { font-family: 'Comfortaa', sans-serif; font-size: 1.25rem; margin-bottom: 8px; text-transform: none; color: var(--color-primary); }
-    .gep-card .subtitle { font-size: 14px; color: var(--color-text-light); margin-bottom: 16px; }
-    .gep-card ul { list-style: none; padding: 0; margin: 0; }
-    .gep-card li { position: relative; padding-left: 24px; padding-bottom: 12px; color: var(--color-text); line-height: 1.7; font-size: 14px; }
-    .gep-card li:last-child { padding-bottom: 0; }
-    .gep-card li::before { content: '\2713'; position: absolute; left: 0; color: var(--color-mint); font-weight: bold; }
-    .gep-intro { max-width: 800px; margin: 0 auto 60px; text-align: center; }
-    .gep-intro p { font-size: 1.1rem; line-height: 1.8; color: var(--color-text); }
-    @media (max-width: 768px) { .gep-grid { grid-template-columns: 1fr; } }
+    .policy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 30px; }
+    .policy-card { background: var(--color-white); border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-md); transition: var(--transition); position: relative; }
+    .policy-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .policy-number { position: absolute; top: 20px; right: 20px; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: var(--color-gray-100); line-height: 1; }
+    .policy-card h4 { font-family: 'Comfortaa', sans-serif; font-size: 1.25rem; margin-bottom: 8px; text-transform: none; color: var(--color-primary); }
+    .policy-card .subtitle { font-size: 14px; color: var(--color-text-light); margin-bottom: 16px; }
+    .policy-card ul { list-style: none; padding: 0; margin: 0; }
+    .policy-card li { position: relative; padding-left: 24px; padding-bottom: 12px; color: var(--color-text); line-height: 1.7; font-size: 14px; }
+    .policy-card li:last-child { padding-bottom: 0; }
+    .policy-card li::before { content: '\2713'; position: absolute; left: 0; color: var(--color-mint); font-weight: bold; }
+    .policy-intro { max-width: 800px; margin: 0 auto 60px; text-align: center; }
+    .policy-intro p { font-size: 1.1rem; line-height: 1.8; color: var(--color-text); }
+    @media (max-width: 768px) { .policy-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -33,10 +33,10 @@
   <!-- GEP Sections -->
   <section class="section">
     <div class="container">
-      <div class="gep-intro" data-aos="fade-up">
+      <div class="policy-intro" data-aos="fade-up">
         <p>At DROG, we believe that true equality comes from creating environments where everyone can thrive. Our approach is practical, transparent, and focused on real outcomes.</p>
       </div>
-      <div class="gep-grid">
+      <div class="policy-grid">
         {{GEP_SECTIONS}}
       </div>
     </div>

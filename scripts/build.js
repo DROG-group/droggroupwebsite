@@ -164,8 +164,8 @@ function generateBlogCategories(categories) {
 // Generate GEP sections HTML
 function generateGepSections(sections) {
   return sections.map((section, i) => `
-        <div class="gep-card" data-aos="fade-up" data-aos-delay="${i * 50}">
-          <span class="gep-number">${section.number}</span>
+        <div class="policy-card" data-aos="fade-up" data-aos-delay="${i * 50}">
+          <span class="policy-number">${section.number}</span>
           <h4>${section.title}</h4>
           ${section.subtitle ? `<p class="subtitle">${section.subtitle}</p>` : ''}
           <ul>
@@ -240,9 +240,9 @@ function generateGenerations(generations) {
 
 // Generate privacy sections HTML
 function generatePrivacySections(sections) {
-  return sections.map(section => `
-        <div class="privacy-section">
-          <h3>${section.title}</h3>
+  return sections.map((section, i) => `
+        <div class="policy-card" data-aos="fade-up" data-aos-delay="${i * 50}">
+          <h4>${section.title}</h4>
           <p>${section.content}</p>
         </div>`
   ).join('\n');

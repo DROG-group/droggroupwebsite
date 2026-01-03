@@ -11,4 +11,6 @@ Gen-5-is-here*.html
 Gen-5-is-here_files/
 Disinformation*.html
 Disinformation*_files/
-*.pdf
+# Ignore root PDFs (old exports) but allow site/pdf/
+/*.pdf
+!site/pdf/

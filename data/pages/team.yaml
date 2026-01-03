@@ -57,6 +57,26 @@ team:
       linkedin: ""
       twitter: ""
 
+spinoffs:
+  title: "Born at DROG"
+  description: "These projects were incubated at DROG and have reached millions worldwide, demonstrating the power of our exploitation model."
+  items:
+    - name: "Bad News"
+      description: "Award-winning browser game teaching the six degrees of manipulation. Players become fake news tycoons to learn how disinformation spreads."
+      stats: "15M+ players"
+      link: "https://www.getbadnews.com"
+      icon: "fas fa-newspaper"
+    - name: "Go Viral!"
+      description: "A 5-minute game developed with Cambridge University to protect against COVID-19 misinformation."
+      stats: "2M+ players"
+      link: "https://www.goviralgame.com"
+      icon: "fas fa-virus"
+    - name: "Harmony Square"
+      description: "Play as a Chief Disinformation Officer in this game about political manipulation and polarization."
+      stats: "500K+ players"
+      link: "https://harmonysquare.game"
+      icon: "fas fa-chess"
+
 partners:
   - name: "Cambridge University"
     description: "Academic research partner"

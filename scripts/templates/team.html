@@ -10,6 +10,13 @@
     .mission-card p { color: var(--color-text); line-height: 1.7; }
     .story-content { max-width: 800px; margin: 0 auto; }
     .story-content p { font-size: 1.1rem; line-height: 1.9; color: var(--color-text); margin-bottom: 24px; }
+    .spinoff-card { background: var(--color-white); border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-md); transition: var(--transition); position: relative; overflow: hidden; display: block; text-decoration: none; color: inherit; }
+    .spinoff-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--color-primary), var(--color-accent)); }
+    .spinoff-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); text-decoration: none; }
+    .spinoff-icon { width: 60px; height: 60px; background: var(--color-gray-100); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 24px; color: var(--color-primary); }
+    .spinoff-card h4 { margin-bottom: 12px; font-family: 'Comfortaa', sans-serif; text-transform: none; font-size: 1.25rem; }
+    .spinoff-card p { color: var(--color-text); line-height: 1.7; margin-bottom: 16px; }
+    .spinoff-stats { display: inline-block; padding: 6px 16px; background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); color: var(--color-white); border-radius: var(--radius-full); font-size: 14px; font-weight: 600; }
     .partner-item { background: var(--color-white); border-radius: var(--radius-md); padding: 24px; box-shadow: var(--shadow-sm); }
     .partner-item h5 { margin-bottom: 8px; font-family: 'Comfortaa', sans-serif; }
     .partner-item p { font-size: 14px; color: var(--color-text-light); }
@@ -48,6 +55,19 @@
       </div>
       <div class="story-content" data-aos="fade-up">
         {{STORY_CONTENT}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Spin-offs Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>{{SPINOFFS_TITLE}}</h2>
+        <p>{{SPINOFFS_DESCRIPTION}}</p>
+      </div>
+      <div class="grid-3">
+        {{SPINOFFS_CARDS}}
       </div>
     </div>
   </section>

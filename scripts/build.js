@@ -303,6 +303,18 @@ function generatePartners(partners) {
   ).join('\n');
 }
 
+// Generate spin-offs HTML
+function generateSpinoffs(spinoffs) {
+  return spinoffs.map((item, i) => `
+        <a href="${item.link}" class="spinoff-card" data-aos="fade-up" data-aos-delay="${i * 100}" target="_blank">
+          <div class="spinoff-icon"><i class="${item.icon}"></i></div>
+          <h4>${item.name}</h4>
+          <p>${item.description}</p>
+          <span class="spinoff-stats">${item.stats}</span>
+        </a>`
+  ).join('\n');
+}
+
 // Generate story content HTML
 function generateStoryContent(content) {
   if (!content) return '';
@@ -834,6 +846,7 @@ function buildTeam(siteData) {
   const hero = pageData.hero || {};
   const mission = pageData.mission || {};
   const story = pageData.story || {};
+  const spinoffs = pageData.spinoffs || {};
   const team = pageData.team || [];
   const partners = pageData.partners || [];
 
@@ -857,6 +870,9 @@ function buildTeam(siteData) {
     '{{MISSION_POINTS}}': generateMissionPoints(mission.points || []),
     '{{STORY_TITLE}}': story.title,
     '{{STORY_CONTENT}}': generateStoryContent(story.content),
+    '{{SPINOFFS_TITLE}}': spinoffs.title || 'Born at DROG',
+    '{{SPINOFFS_DESCRIPTION}}': spinoffs.description || '',
+    '{{SPINOFFS_CARDS}}': generateSpinoffs(spinoffs.items || []),
     '{{TEAM_CARDS}}': generateTeamCards(team),
     '{{PARTNERS}}': generatePartners(partners),
     '{{FOOTER_DESCRIPTION}}': footer.description,

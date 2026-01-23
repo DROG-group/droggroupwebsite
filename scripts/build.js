@@ -1003,6 +1003,10 @@ function build() {
   buildEvents(siteData);
   buildGep(siteData);
 
+  // Create CNAME file for custom domain
+  fs.writeFileSync(path.join(SITE_DIR, 'CNAME'), 'drog.group');
+  console.log('  Created: CNAME');
+
   console.log('\nBuild complete!');
 }
 

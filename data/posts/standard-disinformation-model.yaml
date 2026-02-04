@@ -1,0 +1,111 @@
+# Standard Disinformation Model Blog Post
+
+title: "The Standard Disinformation Model: Understanding Content Pollution"
+slug: "standard-disinformation-model"
+date: "2023-02-15"
+author: "Onno Hansen-Staszynski, Bram Alkema & Ruurd Oosterwoud"
+excerpt: "The field of counter-disinformation is cluttered with interventions, definitions, and approaches. To make sense of it all, we need to start with the basics: what actually is disinformation, and how do governments justify intervening against it?"
+
+content: |
+  <p>The field of counter-disinformation is cluttered with interventions, definitions, and approaches. To make sense of it all, we need to start with the basics: what actually <em>is</em> disinformation, and how do governments justify intervening against it?</p>
+
+  <p>This post establishes the foundational framework that underpins most official counter-disinformation efforts.</p>
+
+  <h2>The Official Definition</h2>
+
+  <p>The European Commission defines disinformation as:</p>
+
+  <blockquote>"Demonstrably false or misleading information created, presented and disseminated for economic gain or to deliberately deceive the public, capable of causing public harm. Public harm includes threats to democratic processes and public goods like citizen health, environment, and safety."</blockquote>
+
+  <p>Reporting errors, satire, parody, and clearly partisan news are explicitly excluded.</p>
+
+  <p>This definition embeds several assumptions worth unpacking:</p>
+
+  <ul>
+    <li><strong>Verifiability</strong> — The information must be demonstrably false, beyond simple journalistic error or bias</li>
+    <li><strong>Attribution</strong> — Identifiable actors create, present, and spread this information</li>
+    <li><strong>Motive</strong> — These actors seek profit or deliberate deception</li>
+    <li><strong>Harm</strong> — The information threatens democracy, public welfare, or the environment</li>
+  </ul>
+
+  <h2>Why Governments Intervene</h2>
+
+  <p>Disinformation often constitutes legal behavior. So how do governments justify action?</p>
+
+  <p>By establishing that disinformation causes damage to democratic processes and public discourse, intervention becomes legitimate. The Dutch government emphasizes that disinformation aims "to damage public debate, democratic processes, the open knowledge economy, or public health."</p>
+
+  <p>The reasoning: disinformation exists outside normal democratic freedoms because it either is criminal or produces illegal consequences. This distinction allows counter-disinformation efforts without violating fundamental rights.</p>
+
+  <h2>The Pollution Metaphor</h2>
+
+  <p>What made government intervention politically viable was a compelling narrative: <strong>digital pollution</strong>.</p>
+
+  <p>A representative 2019 quote captures the framing: <em>"Society found ways to manage industrial waste. We must do the same for the internet."</em></p>
+
+  <p>UNESCO, the Council of Europe, the OECD, and numerous academics adopted "information pollution" terminology. This metaphor treats information streams as contaminated by "dirt" — and contamination justifies cleanup.</p>
+
+  <h2>The Process Chain</h2>
+
+  <p>Treating disinformation as pollution enables describing an intervention chain.</p>
+
+  <p>For traditional industrial polluters: organizations emit pollutants, which spread through environments, accumulate in multiple locations, and expose people to contaminants with measurable consequences.</p>
+
+  <p>For disinformation, the chain operates identically:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Stage</th>
+        <th>Industrial Pollution</th>
+        <th>Disinformation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Mission</strong></td>
+        <td>Corporate profit motive</td>
+        <td>Hostile organizations create false information for gain or deception</td>
+      </tr>
+      <tr>
+        <td><strong>Emission</strong></td>
+        <td>Factory releases pollutants</td>
+        <td>Troll farms and spin doctors produce content</td>
+      </tr>
+      <tr>
+        <td><strong>Transmission</strong></td>
+        <td>Pollutants spread through air/water</td>
+        <td>Own media channels and "useful idiots" spread content</td>
+      </tr>
+      <tr>
+        <td><strong>Remission</strong></td>
+        <td>Pollutants accumulate in environment</td>
+        <td>Social media echo chambers perpetuate content</td>
+      </tr>
+      <tr>
+        <td><strong>Inmission</strong></td>
+        <td>People exposed to contaminants</td>
+        <td>Personalized messages reach individuals</td>
+      </tr>
+      <tr>
+        <td><strong>Commission</strong></td>
+        <td>Health and environmental damage</td>
+        <td>Threats to democratic processes and public goods</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Why This Framework Matters</h2>
+
+  <p>This "Standard Disinformation Model" — combining official definition, embedded assumptions, and pollution metaphor — shapes how most interventions are designed and justified.</p>
+
+  <p>Understanding the model reveals:</p>
+
+  <ol>
+    <li><strong>Where interventions target</strong> — Each stage of the chain offers different intervention points</li>
+    <li><strong>What assumptions are baked in</strong> — Including beliefs about mass persuasion and identifiable adversaries</li>
+    <li><strong>Why certain approaches dominate</strong> — The framework privileges supply-side interventions (stopping the source) over demand-side ones (building resilience)</li>
+  </ol>
+
+  <p>In subsequent posts, we'll examine how different generations of interventions map onto this chain — and where the model's assumptions break down.</p>
+
+  <p><em>This post is adapted from a series originally published in Dutch on Frankwatching (2023).</em></p>

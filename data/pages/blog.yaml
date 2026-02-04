@@ -24,6 +24,18 @@ categories:
     icon: "fas fa-layer-group"
 
 posts:
+  - title: "The Standard Disinformation Model: Understanding Content Pollution"
+    slug: "standard-disinformation-model"
+    date: "2023-02-15"
+    author: "Onno Hansen-Staszynski, Bram Alkema & Ruurd Oosterwoud"
+    category: "dim"
+    tags:
+      - "definition"
+      - "framework"
+      - "theory"
+      - "pollution-model"
+    excerpt: "The field of counter-disinformation is cluttered with interventions, definitions, and approaches. To make sense of it all, we need to start with the basics: what actually is disinformation, and how do governments justify intervening against it?"
+
   - title: "Harmony Square"
     slug: "harmony-square"
     date: "2024-12-01"
